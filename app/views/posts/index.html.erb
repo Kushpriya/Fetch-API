@@ -1,0 +1,22 @@
+
+<h1 align="center">Posts</h1>
+
+<%= stylesheet_link_tag ("post")%>
+
+<div class="posts-container">
+  <% if @posts.any? %>
+    <% @posts.each do |post| %>
+      <div class="post-card">
+        <h2 class="post-title">
+          <%= link_to post['title'], post_path(post['id']) %>
+        </h2>
+        <p class="post-body">
+          <%= truncate(post['body'], length: 150) %>
+          <%# Truncate the body for a preview, showing only the first 150 characters %>
+        </p>
+      </div>
+    <% end %>
+  <% else %>
+    <p>No posts found.</p>
+  <% end %>
+</div>

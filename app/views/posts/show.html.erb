@@ -1,0 +1,8 @@
+<%= stylesheet_link_tag ("show")%>
+
+<div class="single-post-container">
+  <h1><%= @post['title'] %></h1>
+  <p><%= @post['body'] %></p>
+
+  <%= link_to 'Back to Posts', posts_path, class: 'back-link' %>
+</div>

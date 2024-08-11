@@ -59,3 +59,5 @@ end
 gem "sidekiq", "~> 7.3"
 
 gem "devise", "~> 4.9"
+
+gem "httparty", "~> 0.22.0"
