@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <%= stylesheet_link_tag("footer") %>
+
+</head>
+<body>
+    <div class="content">
+        <!-- Main content goes here -->
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <section class="newsletter-section">
+                <form action="">
+                    <div class="newsletter-form">
+                        <p class="newsletter-heading">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
+                        <div class="newsletter-input-group">
+                            <input type="email" id="email" class="form-input" placeholder="Email address" />
+                            <button type="submit" class="btn-submit">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <div class="footer-bottom">
+                © 2020 Copyright:
+                <a class="footer-link" href="https://gorails.com/">RubyOnRails.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

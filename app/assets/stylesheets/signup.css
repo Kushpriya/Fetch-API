@@ -1,0 +1,44 @@
+.container {
+    margin-top: 2rem; max-width: 50%;
+    margin: 2rem auto ;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+.form-wrapper h2 {
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 0.5rem;
+}
+
+.field label {
+    display: block;
+}
+
+.field input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 50px;
+    width: 100px;
+    margin: auto;
+}
+
+.actions input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

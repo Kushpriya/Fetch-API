@@ -7,12 +7,17 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-User.create!(email: "apple@gmail.com",
-    password: "password",
-    password_confirmation: "password",
-    admin: true)
-
-    User.create!(email: "abc@pqr.com",
-        password: "password",
-        password_confirmation: "password",
-        admin: false)
+# Ensure the existence of admin user
+User.find_or_create_by!(email: "mango@gmail.com") do |user|
+    user.password = "password"
+    user.password_confirmation = "password"
+    user.admin = true
+  end
+  
+  # Ensure the existence of a regular user
+  User.find_or_create_by!(email: "abc@pqr.com") do |user|
+    user.password = "password"
+    user.password_confirmation = "password"
+    user.admin = false
+  end
+  

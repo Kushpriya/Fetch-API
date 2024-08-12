@@ -1,0 +1,51 @@
+.container {
+    max-width: 50%;
+    margin: 2rem auto ;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-wrapper h2 {
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 1rem;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.field input[type="email"],
+.field input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.field-check {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin: 1rem;
+}
+
+.field-check input[type="checkbox"] {
+    margin-right: -2.5rem;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.actions input[type="submit"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

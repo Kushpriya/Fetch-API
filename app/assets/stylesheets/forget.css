@@ -1,0 +1,54 @@
+
+.forgetpage{
+    max-width: 50%;
+    margin: 2rem auto ;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   }
+  .fp_field {
+    margin-bottom: 15px;
+  }
+  
+  .fp_field label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .fp_field input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .fp_field input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.2);
+  }
+  
+  .fp_actions {
+    margin-top: 20px;
+  }
+  
+  .fp_actions input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fp_actions input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+ 
